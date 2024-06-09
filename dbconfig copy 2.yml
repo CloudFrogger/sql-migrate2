@@ -1,0 +1,6 @@
+config:
+    dialect: postgres
+    datasource: host=127.0.0.1 dbname=migtest user=postgres password=barbie port=5432 sslmode=disable
+    dir: migrations
+    table: sometable
+

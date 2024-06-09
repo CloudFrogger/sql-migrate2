@@ -1,0 +1,6 @@
+config:
+    dialect: postgres
+    datasource: host=${DB_SERVER} dbname=${DB_DATABASE} user=${DB_USER} password=${DB_PASS} port=${DB_PORT} sslmode=${DB_SSL_MODE}
+    dir: migrations
+    table: orders_results.migrations
+

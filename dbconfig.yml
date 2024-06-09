@@ -1,0 +1,6 @@
+config:
+    dialect: yugabyte
+    datasource: host=172.24.237.132 dbname=migtest user=yugabyte port=5433 sslmode=disable
+    dir: migrations
+    table: sometable
+
