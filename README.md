@@ -97,9 +97,16 @@ config:
 ```
 
 ### Yugabyte
+
+(not implemented yet)
+
+
 Yugabyte Driver is [unkown](hope we will be good)
 
 ### MySQL 
+
+(not implemented yet)
+
 If you are using MySQL, you must append `?parseTime=true` to the `datasource` configuration. For example:
 
 ```yml
@@ -114,9 +121,10 @@ See [here](https://github.com/go-sql-driver/mysql#parsetime) for more informatio
 
 ### Oracle (godror)
 
+(not implemented yet)
+
 Oracle Driver is [godror](https://github.com/godror/godror), it is not pure Go code and relies on Oracle Office Client ([Instant Client](https://www.oracle.com/database/technologies/instant-client/downloads.html)), more detailed information is in the [godror repository](https://github.com/godror/godror).
 
 ## Credits
-This is fanware for the outstanding work of rubenv. I dont like gorm and I wanted yugabyte in the game so I was forced
-to write my own, which I enjoyed very much. 
+This is fanware for the outstanding work of rubenv. I dont like gorm and I wanted yugabyte in the game so I was forced to write my own. 
 Also I didnt like the staging support, in my opinon that is still too much complexity, so I removed all of that.
